@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/item__bg_rcv">
+
+    <EditText
+        android:id="@+id/edt_ls_tenloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ten loai"/>
+    <Button
+        android:id="@+id/btn_ls_dialog_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        app:backgroundTint="@null"
+        android:background="@drawable/item_btn_login"/>
+
+</LinearLayout>

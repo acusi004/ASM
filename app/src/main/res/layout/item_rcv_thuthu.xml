@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/item__bg_rcv"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:background="@drawable/baseline_supervised_user_circle_24"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_thuthu_matt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ma thu thu: 1"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/tv_thuthu_hoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ho ten: do trung hieu"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/tv_thuthu_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password: abc"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+</LinearLayout>
+
+</LinearLayout>
